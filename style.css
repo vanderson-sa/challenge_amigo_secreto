@@ -169,13 +169,13 @@ ul {
     border: 15px solid #333; 
     border-radius: 20px; 
     padding: 20px;
-    margin-top: 20px;
+    margin: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
 }
 
 .screen-content {
-    color: #00ff00; /* Texto verde */
-    background-color: #000; /* Fundo preto */
+    color: #00ff00; 
+    background-color: #000; 
     padding: 15px;
     border-radius: 10px;
     height: 200px;
@@ -199,4 +199,30 @@ ul {
     font-family: "Fira Code", monospace;
     color: #05DF05; 
     font-weight: bold;
+}
+
+.reset-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    color: #00ff00; 
+    background-color: #333; 
+    border: 2px solid #00ff00; 
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.reset-button i {
+    margin-right: 8px; 
+    font-size: 16px; 
+}
+
+.reset-button:hover {
+    background-color: #00ff00; 
+    color: #000; 
 }
