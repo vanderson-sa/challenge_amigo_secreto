@@ -37,3 +37,11 @@ function sortearAmigo() {
     const resultado = document.getElementById('resultado');
     resultado.innerHTML = `<li>🎉 Amigo secreto: <strong>${amigos[indiceSorteado]}</strong></li>`;
 }
+
+function resetarLista() {
+    amigos = []; 
+    atualizarLista(); 
+
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = ''; 
+}
